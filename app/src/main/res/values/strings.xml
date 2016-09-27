@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AppAluno</string>
+    <string name="app_legible_name">Projeto Aluno</string>
+
+    <string name="app_menu_close">Fechar</string>
+    <string name="app_menu_add">Adicionar</string>
+
+    <string name="app_dialog_loading">Por favor aguarde...</string>
+
+    <string name="app_button_save">Salvar</string>
+    <string name="app_button_cancel">Cancelar</string>
+    <string name="app_button_yes">Sim</string>
+    <string name="app_button_no">Não</string>
+
+    <string name="app_permission_lack_call">Você precisa conceder permissão a este aplicativo para realizar chamadas a partir dele.</string>
+    <string name="app_maps_failed">Você precisa conceder permissão a este aplicativo para realizar chamadas a partir dele.</string>
+    <string name="app_internet_connection_failed">Não foi possível estabelecer conexão com a internet. Por favor, tente mais tarde.</string>
+
+    <string name="app_info_create_canceled">Inclusão cancelada.</string>
+
+    <string name="students_create_title">Inserir aluno</string>
+    <string name="students_get_error">Ocorreu um erro ao buscar os dados dos alunos.</string>
+    <string name="students_post_title">Cadastro de aluno</string>
+    <string name="students_post_error">Ocorreu um erro ao inserir o aluno.</string>
+    <string name="students_post_success">Aluno inserido com sucesso.</string>
+    <string name="students_delete_error">Não foi possivel excluir o aluno selecionado.</string>
+    <string name="students_delete_success">Aluno excluído com sucesso.</string>
+    <string name="students_delete_confirm">Confirma a exclusão do aluno %s?</string>
+</resources>
+
+

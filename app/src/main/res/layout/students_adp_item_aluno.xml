@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imgFotoUsuario" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_weight="4" >
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_marginTop="10dp"
+            style="@style/TextViewsGetAluno" />
+
+        <TextView
+        android:layout_width="match_parent"
+            android:id="@+id/txtIdade"
+            style="@style/TextViewsGetAluno"  />
+
+        <TextView
+            android:id="@+id/txtEndereco"
+            android:layout_marginBottom="10dp"
+            style="@style/TextViewsGetAluno" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:src="@mipmap/ico_delete"
+            style="@style/ButtonsGetAluno" />
+
+        <ImageButton
+            android:id="@+id/btnCall"
+            android:src="@mipmap/ico_phone"
+            style="@style/ButtonsGetAluno"/>
+
+    </LinearLayout>
+</LinearLayout>
